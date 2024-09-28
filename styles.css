@@ -1,0 +1,126 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #fb018f, #ffc3a0);
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('love_background.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+.header-content {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+header p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+header button {
+  padding: 10px 20px;
+  font-size: 1.1em;
+  border: none;
+  background: #ff6f61;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+header button:hover {
+  background: #ff3b2f;
+}
+
+/* Section Styles */
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.about-section {
+  background: #fff;
+}
+
+.gallery-section {
+  background: #ffe5e0;
+}
+
+.message-section {
+  background: #fff;
+}
+
+/* Gallery Styles */
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
+}
+
+/* Message Section */
+textarea {
+  width: 60%;
+  height: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ff6f61;
+  margin-bottom: 20px;
+}
+
+button#submitBtn {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background: #ff6f61;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#messageDisplay {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #333;
+  display: none;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
